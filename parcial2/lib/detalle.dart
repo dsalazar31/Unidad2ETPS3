@@ -52,10 +52,10 @@ class _DetalleState extends State<Detalle> {
                     : color == -1
                         ? AssetImage(detalleDatos[0].imagen)
                         : color == 1
-                            ? const AssetImage("assets/Grupo 1.png")
+                            ? const AssetImage("assets/sillas/Grupo 1.png")
                             : color == 2
-                                ? const AssetImage("assets/Grupo 2.png")
-                                : const AssetImage("assets/Grupo 3.png"),
+                                ? const AssetImage("assets/sillas/Grupo 2.png")
+                                : const AssetImage("assets/sillas/Grupo 3.png"),
                 fit: BoxFit.contain)),
         child: Padding(
           padding: const EdgeInsets.only(right: 30),
@@ -69,7 +69,7 @@ class _DetalleState extends State<Detalle> {
                   borderRadius: BorderRadius.circular(15),
                 ),
                 child: const Icon(
-                  Icons.heart_broken,
+                  Icons.favorite,
                   color: Colors.red,
                   size: 20,
                 )),
@@ -183,10 +183,10 @@ class _DetalleState extends State<Detalle> {
                       : color == -1
                           ? detalleDatos[0].imagen
                           : color == 1
-                              ? "assets/Grupo 1.png"
+                              ? "assets/sillas/Grupo 1.png"
                               : color == 2
-                                  ? "assets/Grupo 2.png"
-                                  : "assets/Grupo 3.png",
+                                  ? "assets/sillas/Grupo 2.png"
+                                  : "assets/sillas/Grupo 3.png",
                   detalleDatos[0].precio,
                   detalleDatos[0].titulo));
               Navigator.push(

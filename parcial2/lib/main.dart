@@ -143,9 +143,6 @@ class _HomeState extends State<Home> {
               padding: const EdgeInsets.only(left: 25),
               child: GestureDetector(
                 onTap: () {
-                  setState(() {
-                    print(datosGenerales[tituloSelecionado]["titulo"]);
-                  });
                   detalleDatos = [];
                   detalleDatos.add(DetalleDatos(
                     datosGenerales[tituloSelecionado]["titulo"],
@@ -184,7 +181,7 @@ class _HomeState extends State<Home> {
                             borderRadius: BorderRadius.circular(15),
                           ),
                           child: const Icon(
-                            Icons.heart_broken,
+                            Icons.favorite,
                             color: Colors.red,
                             size: 20,
                           )),
@@ -195,14 +192,15 @@ class _HomeState extends State<Home> {
             ),
             Align(
               alignment: Alignment.centerLeft,
-              child: Text(datosGenerales[index]["descripcion"][index]["desc"]),
+              child: Text(datosGenerales[tituloSelecionado]["descripcion"]
+                  [index]["desc"]),
             ),
             Align(
               alignment: Alignment.centerLeft,
               child: SizedBox(
                   width: 100,
                   child: Text(
-                    datosGenerales[index]["precio"][index]["price"],
+                    datosGenerales[tituloSelecionado]["precio"][index]["price"],
                     style: const TextStyle(fontWeight: FontWeight.bold),
                   )),
             )
@@ -226,7 +224,7 @@ class _HomeState extends State<Home> {
                 borderRadius: BorderRadius.circular(10),
                 image: DecorationImage(
                     image: AssetImage(
-                        "${datosGenerales[1]["imagenes"][2]["imagen"]}"))),
+                        "${datosGenerales[tituloSelecionado]["imagenes"][3]["imagen"]}"))),
           ),
         ),
         Padding(
@@ -239,7 +237,7 @@ class _HomeState extends State<Home> {
                 borderRadius: BorderRadius.circular(10),
                 image: DecorationImage(
                     image: AssetImage(
-                        "${datosGenerales[1]["imagenes"][3]["imagen"]}"))),
+                        "${datosGenerales[tituloSelecionado]["imagenes"][4]["imagen"]}"))),
           ),
         ),
       ]),

@@ -2,11 +2,11 @@ const List datosGenerales = [
   {
     "titulo": "Sillas",
     "imagenes": [
-      {"imagen": "assets/principal.png"},
-      {"imagen": "assets/Grupo 1.png"},
-      {"imagen": "assets/Grupo 2.png"},
-      {"imagen": "assets/Grupo 3.png"},
-      {"imagen": "assets/Grupo 4.png"}
+      {"imagen": "assets/sillas/principal.png"},
+      {"imagen": "assets/sillas/Grupo 1.png"},
+      {"imagen": "assets/sillas/Grupo 2.png"},
+      {"imagen": "assets/sillas/Grupo 3.png"},
+      {"imagen": "assets/sillas/Grupo 4.png"}
     ],
     "precio": [
       {"price": "24.99"},
@@ -48,25 +48,25 @@ const List datosGenerales = [
   {
     "titulo": "Muebles",
     "imagenes": [
-      {"imagen": "assets/mueble1.png"},
-      {"imagen": "assets/mueble2.png"},
-      {"imagen": "assets/mueble3.png"},
-      {"imagen": "assets/mueble4.png"},
-      {"imagen": "assets/mueble5.png"}
+      {"imagen": "assets/muebles/mueble1.png"},
+      {"imagen": "assets/muebles/mueble2.png"},
+      {"imagen": "assets/muebles/mueble3.png"},
+      {"imagen": "assets/muebles/mueble4.png"},
+      {"imagen": "assets/muebles/mueble5.png"}
     ],
     "precio": [
-      {"price": "24.99"},
-      {"price": "24.99"},
-      {"price": "24.99"},
-      {"price": "24.99"},
-      {"price": "24.99"}
+      {"price": "325.99"},
+      {"price": "420.99"},
+      {"price": "350.99"},
+      {"price": "200.99"},
+      {"price": "250.99"},
     ],
     "descripcion": [
-      {"desc": "Silla guanaca N"},
-      {"desc": "Silla guanaca N"},
-      {"desc": "Silla guanaca N"},
-      {"desc": "Silla guanaca N"},
-      {"desc": "Silla guanaca N"},
+      {"desc": "Sofá para sala"},
+      {"desc": "Sofá para sala"},
+      {"desc": "Sofá para sala"},
+      {"desc": "Sofá para sala"},
+      {"desc": "Sofá para sala"},
     ],
     "detalle": [
       {
@@ -94,25 +94,25 @@ const List datosGenerales = [
   {
     "titulo": "Camas",
     "imagenes": [
-      {"imagen": "assets/principal.png"},
-      {"imagen": "assets/Grupo 1.png"},
-      {"imagen": "assets/Grupo 2.png"},
-      {"imagen": "assets/Grupo 3.png"},
-      {"imagen": "assets/Grupo 4.png"}
+      {"imagen": "assets/camas/cama1.png"},
+      {"imagen": "assets/camas/cama2.png"},
+      {"imagen": "assets/camas/cama3.png"},
+      {"imagen": "assets/camas/cama4.png"},
+      {"imagen": "assets/camas/cama5.png"}
     ],
     "precio": [
-      {"price": "24.99"},
-      {"price": "24.99"},
-      {"price": "24.99"},
-      {"price": "24.99"},
-      {"price": "24.99"}
+      {"price": "500.99"},
+      {"price": "750.00"},
+      {"price": "699.99"},
+      {"price": "450.99"},
+      {"price": "999.99"}
     ],
     "descripcion": [
-      {"desc": "Silla guanaca N"},
-      {"desc": "Silla guanaca N"},
-      {"desc": "Silla guanaca N"},
-      {"desc": "Silla guanaca N"},
-      {"desc": "Silla guanaca N"},
+      {"desc": "Cama matrimonial"},
+      {"desc": "Cama matrimonial"},
+      {"desc": "Cama matrimonial"},
+      {"desc": "Cama matrimonial"},
+      {"desc": "Cama matrimonial"},
     ],
     "detalle": [
       {
@@ -140,25 +140,25 @@ const List datosGenerales = [
   {
     "titulo": "Cunas",
     "imagenes": [
-      {"imagen": "assets/principal.png"},
-      {"imagen": "assets/Grupo 1.png"},
-      {"imagen": "assets/Grupo 2.png"},
-      {"imagen": "assets/Grupo 3.png"},
-      {"imagen": "assets/Grupo 4.png"}
+      {"imagen": "assets/cunas/cuna1.png"},
+      {"imagen": "assets/cunas/cuna2.png"},
+      {"imagen": "assets/cunas/cuna3.png"},
+      {"imagen": "assets/cunas/cuna4.png"},
+      {"imagen": "assets/cunas/cuna5.png"}
     ],
     "precio": [
-      {"price": "24.99"},
-      {"price": "24.99"},
-      {"price": "24.99"},
-      {"price": "24.99"},
-      {"price": "24.99"}
+      {"price": "125.99"},
+      {"price": "150.40"},
+      {"price": "225.10"},
+      {"price": "175.99"},
+      {"price": "200.00"}
     ],
     "descripcion": [
-      {"desc": "Silla guanaca N"},
-      {"desc": "Silla guanaca N"},
-      {"desc": "Silla guanaca N"},
-      {"desc": "Silla guanaca N"},
-      {"desc": "Silla guanaca N"},
+      {"desc": "Cunas para bebé"},
+      {"desc": "Cunas para bebé"},
+      {"desc": "Cunas para bebé"},
+      {"desc": "Cunas para bebé"},
+      {"desc": "Cunas para bebé"},
     ],
     "detalle": [
       {
@@ -186,25 +186,25 @@ const List datosGenerales = [
   {
     "titulo": "Cuadros",
     "imagenes": [
-      {"imagen": "assets/principal.png"},
-      {"imagen": "assets/Grupo 1.png"},
-      {"imagen": "assets/Grupo 2.png"},
-      {"imagen": "assets/Grupo 3.png"},
-      {"imagen": "assets/Grupo 4.png"}
+      {"imagen": "assets/cuadros/cuadro1.png"},
+      {"imagen": "assets/cuadros/cuadro2.png"},
+      {"imagen": "assets/cuadros/cuadro3.png"},
+      {"imagen": "assets/cuadros/cuadro4.png"},
+      {"imagen": "assets/cuadros/cuadro5.png"}
     ],
     "precio": [
-      {"price": "24.99"},
-      {"price": "24.99"},
-      {"price": "24.99"},
-      {"price": "24.99"},
-      {"price": "24.99"}
+      {"price": "15.99"},
+      {"price": "12.00"},
+      {"price": "9.99"},
+      {"price": "10.50"},
+      {"price": "8.99"}
     ],
     "descripcion": [
-      {"desc": "Silla guanaca N"},
-      {"desc": "Silla guanaca N"},
-      {"desc": "Silla guanaca N"},
-      {"desc": "Silla guanaca N"},
-      {"desc": "Silla guanaca N"},
+      {"desc": "Cuadro para fotos"},
+      {"desc": "Cuadro para fotos"},
+      {"desc": "Cuadro para fotos"},
+      {"desc": "Cuadro para fotos"},
+      {"desc": "Cuadro para fotos"},
     ],
     "detalle": [
       {
